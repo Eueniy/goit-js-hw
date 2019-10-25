@@ -14,6 +14,8 @@ if (droidCount == null) {
     alert('Недостаточно средств на счету!');
   } else {
     let creditsBallance = credits - totalPrice;
-    alert(`Вы купили ${droidCount} дроидов, на счету осталось ${creditsBallance} кредитов.`);
+    alert(
+      `Вы купили ${droidCount} дроидов, на счету осталось ${creditsBallance} кредитов.`,
+    );
   }
 }

@@ -6,7 +6,9 @@ const australia = 'австралия';
 const india = 'индия';
 const jamaica = 'ямайка';
 
-let countryChoice = prompt('Введите страну, куда необходимо осуществить доставку');
+let countryChoice = prompt(
+  'Введите страну, куда необходимо осуществить доставку',
+);
 console.log('Страна доставки', countryChoice);
 
 if (countryChoice === null) {
@@ -14,23 +16,22 @@ if (countryChoice === null) {
 } else {
   let userCountry = countryChoice.toLowerCase();
   switch (userCountry) {
-    
     case china:
-      alert( `Доставка в ${china} будет стоить 100 кредитов`);
+      alert(`Доставка в ${china} будет стоить 100 кредитов`);
       break;
-      case chili:
-        alert( `Доставка в ${chili} будет стоить 250 кредитов`);
-        break;
-      case australia:
-        alert( `Доставка в ${australia} будет стоить 170 кредитов`);
-        break;
-      case india:
-        alert( `Доставка в ${india} будет стоить 80 кредитов`);
-        break;
-      case jamaica:
-        alert( `Доставка в ${jamaica} будет стоить 120 кредитов`);
-        break;  
-      default:
-        alert('В вашей стране доставка не доступна');
+    case chili:
+      alert(`Доставка в ${chili} будет стоить 250 кредитов`);
+      break;
+    case australia:
+      alert(`Доставка в ${australia} будет стоить 170 кредитов`);
+      break;
+    case india:
+      alert(`Доставка в ${india} будет стоить 80 кредитов`);
+      break;
+    case jamaica:
+      alert(`Доставка в ${jamaica} будет стоить 120 кредитов`);
+      break;
+    default:
+      alert('В вашей стране доставка не доступна');
   }
 }
