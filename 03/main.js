@@ -24,11 +24,12 @@ function task1() {
 // ===== TASK 02 =====
 
 function task2() {
-  const countProps = function(obj) {
-    const objKeys = Object.keys(obj);
-    const quantity = objKeys.length;
-    return quantity;
-  };
+  const countProps = obj => Object.keys(obj).length;
+  // const countProps = function(obj) {
+  //   const objKeys = Object.keys(obj);
+  //   const quantity = objKeys.length;
+  //   return quantity;
+  // };
 
   console.log(countProps({})); // 0
   console.log(countProps({ name: 'Mango', age: 2 })); // 2
