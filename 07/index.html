@@ -4,45 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Homework 06</title>
+    <title>Homework 07</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <h1>Homework 07</h1>
 
-    <ul id="categories">
-      <li class="item">
-        <h2>Животные</h2>
+    <div class="task01" style="display: none;">
+      <p>==== Task 01 ====</p>
+      <ul id="categories">
+        <li class="item">
+          <h2>Животные</h2>
 
-        <ul>
-          <li>Кот</li>
-          <li>Хомяк</li>
-          <li>Лошадь</li>
-          <li>Попугай</li>
-        </ul>
-      </li>
-      <li class="item">
-        <h2>Продукты</h2>
+          <ul>
+            <li>Кот</li>
+            <li>Хомяк</li>
+            <li>Лошадь</li>
+            <li>Попугай</li>
+          </ul>
+        </li>
+        <li class="item">
+          <h2>Продукты</h2>
 
-        <ul>
-          <li>Хлеб</li>
-          <li>Петрушка</li>
-          <li>Творог</li>
-        </ul>
-      </li>
-      <li class="item">
-        <h2>Технологии</h2>
+          <ul>
+            <li>Хлеб</li>
+            <li>Петрушка</li>
+            <li>Творог</li>
+          </ul>
+        </li>
+        <li class="item">
+          <h2>Технологии</h2>
 
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node</li>
-        </ul>
-      </li>
-    </ul>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
-    <script src="./users.js" type="module"></script>
+    <div class="task02" style="display: none; margin: auto;">
+      <p>==== Task 02 ====</p>
+      <ul id="ingredients"></ul>
+    </div>
+
+    <div class="task03" style="display: none; margin: 20px;">
+      <p>==== Task 03 ====</p>
+      <ul
+        id="gallery"
+        style="
+          display: flex;
+          flex-direction: row;
+          margin: auto;
+          justify-content: space-between;
+        "
+      ></ul>
+    </div>
+
+    <div class="task04" style="display: none;">
+      <p>==== Task 04 ====</p>
+      <div id="counter">
+        <button type="button" data-action="decrement">
+          -1
+        </button>
+        <span id="value">0</span>
+        <button type="button" data-action="increment">
+          +1
+        </button>
+      </div>
+    </div>
+
+    <div class="task05" style="display: none;">
+      <p>==== Task 05 ====</p>
+      <input type="text" placeholder="Ваше имя?" id="name-input" />
+      <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+    </div>
+
+    <div class="task06" style="display: none;">
+      <p>==== Task 06 ====</p>
+      <input
+        type="text"
+        id="validation-input"
+        data-length="6"
+        placeholder="Введи 6 символов"
+      />
+    </div>
+
+    <div class="task07" style="display: none;">
+      <p>==== Task 07 ====</p>
+      <input id="font-size-control" type="range" />
+      <br />
+      <span id="text">Абракадабра!</span>
+    </div>
+
+    <!-- <div class="task08" style="display: none;">
+      <p>==== Task 08 ====</p>
+      <div id="controls">
+        <input type="number" min="0" max="100" step="1" />
+        <button type="button" data-action="render">Создать</button>
+        <button type="button" data-action="destroy">Очистить</button>
+      </div>
+    </div>
+    <div id="boxes"></div> -->
+
     <script src="./task01.js" type="module"></script>
+    <!-- <script src="./task02.js" type="module"></script> -->
+    <!-- <script src="./task03.js" type="module"></script> -->
+    <!-- <script src="./task04.js" type="module"></script> -->
+    <!-- <script src="./task05.js" type="module"></script> -->
+    <!-- <script src="./task06.js" type="module"></script> -->
+    <!-- <script src="./task07.js" type="module"></script> -->
+    <!-- пока не сделано <script src="./task08.js" type="module"></script> -->
   </body>
 </html>
