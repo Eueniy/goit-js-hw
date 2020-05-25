@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter-kit",
+  "name": "goit-js-hw",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eueniy/goit-js-hw/tree/master/10"
+    "url": "git+https://github.com/eueniy/goit-js-hw/"
   },
   "keywords": [],
   "author": "Eugeny Tkachev <tkachev.eugeny@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eueniy/goit-js-hw/issues"
+    "url": "https://github.com/eueniy/goit-js-hw/"
   },
-  "homepage": "https://eueniy.github.io/goit-js-hw/10/",
+  "homepage": "https://eueniy.github.io/goit-js-hw",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
