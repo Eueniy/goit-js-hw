@@ -4,10 +4,10 @@ const Theme = {
 };
 
 const userTheme = localStorage.getItem('userTheme');
-console.log(userTheme);
 if (userTheme === null) {
   localStorage.setItem('userTheme', Theme.LIGHT);
 }
+
 const body = document.querySelector('body');
 body.classList.add(Theme.LIGHT);
 const switcher = document.querySelector('.js-switch-input');
