@@ -3,8 +3,10 @@ const Theme = {
   DARK: 'dark-theme',
 };
 
+localStorage.setItem('userTheme', Theme.LIGHT);
 const userTheme = localStorage.getItem('userTheme');
 const body = document.querySelector('body');
+body.classList.add(Theme.LIGHT);
 const switcher = document.querySelector('.js-switch-input');
 
 if (userTheme) {
